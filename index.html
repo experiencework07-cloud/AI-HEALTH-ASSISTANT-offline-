@@ -415,7 +415,6 @@
     <div class="quick-tests">
         <span>Quick Exhibition Test Cases (Click to Fill):</span>
         <div class="chip-group">
-            <div class="chip" onclick="fillSample('Severe burning sensation during urination and cloudy urine.')">UTI / Peeing Problem</div>
             <div class="chip" onclick="fillSample('Red, itchy, watery eyes with gritty feeling and crusty discharge in morning.')">Eye Irritation / Conjunctivitis</div>
             <div class="chip" onclick="fillSample('I have a throbbing headache on one side, sensitivity to light, and mild nausea.')">Migraine</div>
             <div class="chip" onclick="fillSample('Burning sensation in chest after eating spicy food, sour burps, and bloating.')">Acidity / GERD</div>
@@ -425,7 +424,7 @@
 
     <div class="form-group">
         <label for="symptoms">Enter Patient Symptoms:</label>
-        <textarea id="symptoms" placeholder="Describe what you are experiencing in detail (e.g., sore throat, dry cough, bone ache, eye irritation, peeing pain, etc.)..."></textarea>
+        <textarea id="symptoms" placeholder="Describe what you are experiencing in detail (e.g., sore throat, dry cough, bone ache, eye irritation, etc.)..."></textarea>
     </div>
 
     <button class="btn" onclick="analyzeSymptoms()">Run AI Symptom Analysis</button>
@@ -1043,7 +1042,7 @@
         },
         {
             name: "Acute Sinusitis (Sinus Pressure & Pain)",
-            keywords: ["sinus", "sinusitis", "face pain", "pain around eyes", "forehead pressure", "cheek pain", "thick yellow mucus"],
+            keywords: ["sinus", "sinusitis", "face pain", "pain around eyes", "forehead pain", "cheek pain", "thick yellow mucus"],
             confidence: "93% Match",
             explanation: "Inflammation or swelling of the tissue lining the sinuses, causing facial pain, headache, and nasal congestion.",
             remedies: [
@@ -1056,7 +1055,7 @@
         },
         {
             name: "Acute Pharyngitis / Sore Throat",
-            keywords: ["sore throat", "throat pain", "scratchy throat", "pain swallowing", "difficulty swallowing", "tonsils"],
+            keywords: ["sore throat", "throat pain", "scratchy throat", "pain during swallowing", "difficulty swallowing", "tonsils"],
             confidence: "92% Match",
             explanation: "Pain, scratchiness or irritation of the throat that often worsens when you swallow.",
             remedies: [
@@ -1346,7 +1345,7 @@
         },
         {
             name: "Anal Fissure (Tear & Pain During Pooping)",
-            keywords: ["anal fissure", "sharp tearing pain pooping", "blood on toilet paper fissure"],
+            keywords: ["anal fissure", "sharp tearing pain while pooping", "blood on toilet paper fissure"],
             confidence: "92% Match",
             explanation: "A small tear in the thin, moist tissue (mucosa) that lines the anus, causing sharp pain and bleeding during bowel movements.",
             remedies: [
